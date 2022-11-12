@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+*{
+    background-color: #2C3333;  
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 2.5rem;
+}
+
+h1{
+    color: #A5C9CA  ; 
+    text-align: center;
+}
+
+.top{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+input{
+    background-color: #2C3333;
+    color: #E7F6F2;
+    border: none;
+    outline: none;
+    width: 400px;
+    padding: 0 0.5rem;
+    font-size: 18px;
+    border-bottom: 1px solid #395B64;
+}
+
+.add{
+    background-color: #A5C9CA;
+    border-radius: 50px;
+    color: #393E46;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
+
+.add:hover{
+    background: #fff;
+}
+
+.item{
+    position: relative;
+    margin-top: 1rem;
+    background-color: #393E46;
+    font-size: 20px;
+    color: #E7F6F2;
+    border-bottom: 2px solid #395B64;
+    overflow:auto;
+}
+
+.icons{
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    display: flex;
+    gap: 1.5rem;
+}
+
+i{
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #A5C9CA;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
